@@ -67,8 +67,10 @@ a state corresponds to taking *similar* states.
 
 <img src="https://i.paste.pics/56B3H.png" width="1000" height="398" alt="Screenshot">
 
-* EX2 significantly outperform other methods on Doom task and quite competitive on other tasks.
-
 ### What things could be improved
 
-* Highly tuned EX2 specific parameters for each task.
+In future work, the authors intend to extend the initial results obtained to include additional performance metrics,
+such as probability of stopping and vehicle velocity jitter. 
+
+Moreover, the basic five-intersection network considered
+here will be expanded to include larger traffic networks and more extensive collaboration among agents.
