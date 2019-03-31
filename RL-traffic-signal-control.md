@@ -66,7 +66,21 @@ a state corresponds to taking *similar* states.
 ### Experiments
 
 #### Simulation setup and parameters
+* one time unit = one time step = one discrete second
+* intersection agents took actions once every 20 time units
+* no more than one vehicle was allowed to traverse the intersection at each time unit
+* if a light signal transitions from red to green, there is a 2 unit delay for red-clear
+* traffic arrivals followed the Poisson distribution with average arrival rate ranging from 0.1 to 1.0. 
+As
+mentioned above, to evaluate the performance, we only
+collected statistics pertaining to vehicles which passed the
+central intersection. All simulations pertained to the fiveintersection
+network described in Section 4.2. The duration
+of each simulation run was 20 000 time units. The weight
+decay factor was 0.05, and the Q Learning discount factor
+(g) was chosen to be 0.95.
 
+#### Figures
 <img src="https://i.paste.pics/56B3H.png" width="1000" height="398" alt="Screenshot">
 
 ### What things could be improved
