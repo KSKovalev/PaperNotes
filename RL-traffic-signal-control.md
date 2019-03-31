@@ -34,6 +34,9 @@ Experimental results clearly demonstrate the advantages of multi-agent RL-based 
 ## Definition of the RL elements
 * **State:** an eight-dimensional feature vector with each element representing the relative traffic flow at one of the lanes. 
 Relative traffic flow - the total delay of vehicles in a lane divided by the average delay at all lanes in the intersection
+* **Actions:** {(1,5), (1,6), (2,5), (2,6), (3,7), (3,8), (4,7), (4,8)}
+* **Reward:**
+
 
 
 
