@@ -65,7 +65,7 @@ a state corresponds to taking *similar* states.
 
 ### Experiments
 
-## Simulation setup and parameters
+#### Simulation setup and parameters
 
 <img src="https://i.paste.pics/56B3H.png" width="1000" height="398" alt="Screenshot">
 
