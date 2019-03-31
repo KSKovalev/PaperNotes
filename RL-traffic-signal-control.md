@@ -1,7 +1,7 @@
 ## RL-based multi-agent system for network traffic signal control
 
-1. Link: https://ieeexplore.ieee.org/document/5478405/
-2. PDF: http://web.eecs.utk.edu/~itamar/Papers/IET_ITS_2010.pdf
+1. Paper link: https://ieeexplore.ieee.org/document/5478405/
+2. Paper PDF: http://web.eecs.utk.edu/~itamar/Papers/IET_ITS_2010.pdf
 
 -----
 
