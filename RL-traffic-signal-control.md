@@ -1,4 +1,4 @@
-## Reinforcement learning-based multi-agent system for network traffic signal control
+## RL-based multi-agent system for network traffic signal control
 
 1. Link: https://arxiv.org/abs/1703.01260
 2. Website: https://sites.google.com/view/ex2exploration
