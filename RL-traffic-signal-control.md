@@ -65,7 +65,7 @@ a state corresponds to taking *similar* states.
 
 ### Experiments
 
-<img src="https://i.paste.pics/56B17.png">
+<img src="https://i.paste.pics/56B1M.png" width="400" height="340" alt="Screenshot">
 
 * EX2 significantly outperform other methods on Doom task and quite competitive on other tasks.
 
