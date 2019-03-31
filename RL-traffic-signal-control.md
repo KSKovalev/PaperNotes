@@ -62,5 +62,4 @@ Relative traffic flow - the total delay of vehicles in a lane divided by the ave
 In future work, the authors intend to extend the initial results obtained to include additional performance metrics,
 such as probability of stopping and vehicle velocity jitter. 
 
-Moreover, the basic five-intersection network considered
-here will be expanded to include larger traffic networks and more extensive collaboration among agents.
+Moreover, the basic five-intersection network considered here might be expanded to include larger traffic networks and more extensive collaboration among agents.
