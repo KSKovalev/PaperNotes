@@ -42,6 +42,7 @@ ideas from pseudo-counts exploration: `f = 1/sqrt(N(s))`, where `N(s) = n*p(s)`.
 
 ### Details
 
+
 #### How authors overcome intractable problem of fitting a discriminators for each point?
 
 They use *amortized exemplar model*. Actually, they train only one discriminator for all exemplar states.
