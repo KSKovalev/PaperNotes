@@ -37,7 +37,8 @@ Relative traffic flow - the total delay of vehicles in a lane divided by the ave
 
 **Actions:** {(1,5), (1,6), (2,5), (2,6), (3,7), (3,8), (4,7), (4,8)}
 
-**Reward:**
+**Reward:** 
+<a href="https://www.codecogs.com/eqnedit.php?latex=D_{last},&space;D_{current}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D_{last},&space;D_{current}" title="D_{last}, D_{current}" /></a>
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=r&space;=&space;\frac{D_{last}&space;-&space;D_{current}}{max[D_{last},&space;D_{current}]}\in&space;[-1,1]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r&space;=&space;\frac{D_{last}&space;-&space;D_{current}}{max[D_{last},&space;D_{current}]}\in&space;[-1,1]" title="r = \frac{D_{last} - D_{current}}{max[D_{last}, D_{current}]}\in [-1,1]" /></a>
 
