@@ -35,7 +35,8 @@ Experimental results clearly demonstrate the advantages of multi-agent RL-based 
 * to evaluate the performance, only statistics of vehicles which passed the central intersection was used
 * the duration of each simulation run was 20 000 time units
 * the weight decay factor was 0.05
-* and the Q Learning discount factor was chosen to be 0.95
+* the Q Learning discount factor was chosen to be 0.95
+* prior to measuring and evaluating the performance RL-based agent took 10 000 steps to learn the environment with a decreasing exploration rate.
 
 #### Figures
 <img src="https://i.paste.pics/56B3H.png" width="1000" height="398" alt="Screenshot">
