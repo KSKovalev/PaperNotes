@@ -29,7 +29,7 @@ classifier doesn't produce 1 on the exemplar `x^*` because the exemplar may also
 
 If we've trained such a classifier, it comes out that we could estimate density of the point `x^*`! The equation for it will be
 
-<img src="https://prntscr.com/n5d8fn.png">
+<img src="https://paste.pics/56AVN">
 
 So, if we trained the exemplar model on past states of our RL agent, we could estimate the density on new states. Then,
 we could add an exploration bonus to visiting states which are novel (have low density or, equivalently, high discriminator
