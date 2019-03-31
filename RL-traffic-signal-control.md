@@ -23,6 +23,7 @@ Experimental results clearly demonstrate the advantages of multi-agent RL-based 
 ## Model
 <img src="https://i.paste.pics/56AVN.png">
 
+#### Properties
 * four outbound intersections operate based on local information -longest-queue-first (LQF) algorithm
 * the central intersection hosts an RL-based agent that controls traffic signaling
 
