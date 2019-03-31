@@ -63,17 +63,9 @@ distribution. So encoder actually produces a mean and logsigma of a gaussian dis
 gaussian noise many times and averaging discriminator scores on these noises. This helps because sampling around latent code of
 a state corresponds to taking *similar* states.
 
-
-#### The algorithm pseudo-code
-
-<img src="https://image.prntscr.com/image/gn_gc3ZRSLaSFKVC58KTgg.png">
-
 ### Experiments
 
-* Three experiments with low-dimensional state space -- to assess whether EX2 can perform density estimation and compute
-exploration bonuses
-* Four high-dimensional image-based tasks of varying difficulty intended to evaluate whether density estimation provides
-improvement in domains where generative modeling is difficult.
+<img src="https://i.paste.pics/56B17.png">
 
 * EX2 significantly outperform other methods on Doom task and quite competitive on other tasks.
 
