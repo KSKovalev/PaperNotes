@@ -71,7 +71,7 @@ a state corresponds to taking *similar* states.
 * no more than one vehicle was allowed to traverse the intersection at each time unit
 * if a light signal transitions from red to green, there is a 2 unit delay for red-clear
 * traffic arrivals followed the Poisson distribution with average arrival rate ranging from 0.1 to 1.0
-* to evaluate the performance, only statistics of vehicles which passed the central intersection were used
+* to evaluate the performance, only statistics of vehicles which passed the central intersection was used
 * the duration of each simulation run was 20 000 time units
 * the weight decay factor was 0.05
 * and the Q Learning discount factor was chosen to be 0.95
