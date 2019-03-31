@@ -5,11 +5,10 @@
 
 -----
 
-### Problem
+### Abstract
 
-Modern deep RL methods do not by themselves solve the exploration problem when the rewards are rare and sparse
-(e-greedy, gaussian noise etc. don't explicitly look for interesting states; 
-[VIME](https://arxiv.org/abs/1605.09674) requires a model of the environment).
+A challenging application of artificial intelligence systems involves the scheduling of traffic signals in multi-intersection vehicular networks. This paper introduces a novel use of a multi-agent system and reinforcement learning (RL) framework to obtain an efficient traffic signal control policy. The latter is aimed at minimising the average delay, congestion and likelihood of intersection cross-blocking. A five-intersection traffic network has been studied in which each intersection is governed by an autonomous intelligent agent.
+Two types of agents, a central agent and an outbound agent, were employed. The outbound agents schedule traffic signals by following the longest-queue-first (LQF) algorithm, which has been proved to guarantee stability and fairness, and collaborate with the central agent by providing it local traffic statistics. The central agent learns a value function driven by its local and neighbours’ traffic conditions. The novel methodology proposed here utilises the Q-Learning algorithm with a feedforward neural network for value function approximation. Experimental results clearly demonstrate the advantages of multi-agent RL-based control over LQF governed isolated single-intersection control, thus paving the way for efficient distributed traffic signal control in complex settings.
 
 
 ### Solution
