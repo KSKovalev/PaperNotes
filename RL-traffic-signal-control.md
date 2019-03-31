@@ -5,7 +5,7 @@
 
 -----
 
-### Abstract
+## Abstract
 
 This paper introduces a novel use of a multi-agent system and RL framework to obtain an efficient traffic signal control policy. The latter is aimed at minimising the average delay, congestion and likelihood of intersection cross-blocking. 
 
@@ -24,7 +24,7 @@ Experimental results clearly demonstrate the advantages of multi-agent RL-based 
 <img src="https://i.paste.pics/56AVN.png">
 
 
-### Experiments
+## Experiments
 
 #### Simulation setup and parameters
 * one time unit = one time step = one discrete second
@@ -41,7 +41,7 @@ Experimental results clearly demonstrate the advantages of multi-agent RL-based 
 #### Figures
 <img src="https://i.paste.pics/56B3H.png" width="1000" height="398" alt="Screenshot">
 
-### What things could be improved
+## What things could be improved
 
 In future work, the authors intend to extend the initial results obtained to include additional performance metrics,
 such as probability of stopping and vehicle velocity jitter. 
