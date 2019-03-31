@@ -31,6 +31,11 @@ Experimental results clearly demonstrate the advantages of multi-agent RL-based 
 * vehicles at the odd lanes should turn left to their designated queues
 * all lanes can queue at most 40 vehicles
 
+## Definition of the RL elements
+* **State:** an eight-dimensional feature vector with each element representing the relative traffic flow at one of the lanes. 
+Relative traffic flow - the total delay of vehicles in a lane divided by the average delay at all lanes in the intersection
+
+
 
 ## Experiments
 
